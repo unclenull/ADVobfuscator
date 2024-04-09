@@ -1,7 +1,7 @@
 What is ADVobfuscator?
 ======================
 
-**ADVobfuscator** demonstates how to use `C++11/14` language to generate, at compile time, obfuscated code without using any external tool and without modifying the compiler. The technics presented rely only on `C++11/14`, as standardized by ISO. It shows also how to introduce some form of randomness to generate polymorphic code and it gives some concrete examples like the encryption of strings literals and the obfuscation of calls using finite state machines.
+**ADVobfuscator** demonstates how to use `C++11/14` language to generate, at compile time, obfuscated code without using any external tool and without modifying the compiler. The technics presented rely only on `C++11/14`, as standardized by ISO. It shows also how to introduce some form of randomness to generate polymorphic code and it gives some concrete examples like the encryption of strings literals and the obfuscation of calls using [finite state machines](https://www.blackhat.com/docs/eu-14/materials/eu-14-Andrivet-C-plus-plus11-Metaprogramming-Applied-To-software-Obfuscation.pdf).
 
 **ADVobfuscator** is delivered as a set of source file (source code library). You have to include them into your project and call the appropriate functions or macro. This is not a magic black box or some kind of code pre-processor or post-processor. It has to be integrated manually into your source code.
 
